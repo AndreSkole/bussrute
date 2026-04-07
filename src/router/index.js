@@ -1,18 +1,11 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import BusStopList from '../components/BusStopList.vue';
-import BusStopDetails from '../components/BusStopDetails.vue';
+import { createRouter, createWebHistory } from "vue-router";
+import BusStopList from "../components/BusStopList.vue";
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
+    path: "/",
+    name: "Home",
     component: BusStopList,
-  },
-  {
-    path: '/stop/:id',
-    name: 'BusStopDetails',
-    component: BusStopDetails,
-    props: true,
   },
 ];
 

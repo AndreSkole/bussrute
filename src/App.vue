@@ -1,14 +1,8 @@
 <template>
   <div class="min-h-screen flex flex-col">
     <header class="bg-slate-800 text-white px-4 py-3 shadow-md">
-      <div
-        class="max-w-4xl mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2"
-      >
-        <div
-          class="text-xl font-semibold tracking-tight"
-        >
-          Bussruter i sanntid
-        </div>
+      <div class="max-w-4xl mx-auto text-center font-bold text-3xl">
+        Bussruter i sanntid
       </div>
     </header>
 

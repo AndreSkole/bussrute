@@ -1,11 +1,5 @@
 <template>
   <section ref="dashboardEl" class="h-[calc(100vh-164px)] flex flex-col">
-    <div class="mb-3">
-      <h1 class="text-2xl font-semibold text-slate-800">Sanntidsavgangar</h1>
-      <p class="text-sm text-slate-600">
-        Oppdaterer automatisk.
-      </p>
-    </div>
 
     <p
       v-if="globalError"
@@ -26,8 +20,6 @@
               {{ card.title }}
             </h2>
             <p class="text-xs text-slate-500 break-all">
-              <span v-if="card.stopPlaceId">ID: {{ card.stopPlaceId }}</span>
-              <span v-else>Slår opp ID…</span>
             </p>
           </div>
         </div>
