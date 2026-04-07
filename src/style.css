@@ -1,0 +1,19 @@
+/* Placeholder-fil for globale stilreglar dersom du vil legge til noko seinare.
+ * Tailwind blir lasta inn via CDN i index.html.
+ */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Dashboard-kiosk: unngå scrolling */
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
